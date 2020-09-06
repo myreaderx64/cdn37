@@ -1,0 +1,1063 @@
+
+
+
+<!DOCTYPE html>
+<html lang="ja" xmlns:og="http://ogp.me/ns#">
+<head>
+
+
+
+<meta charset="EUC-JP">
+<meta property="fb:pages" content="1411031549129601" />
+<title>アニメニュース - ライブドアニュース</title>
+<meta name="description" content="アニメに関連する最新のニュースをお届けします">
+<meta name="keywords" content="アニメ,ニュース">
+
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="verify-v1" content="1bivxaxGrLBSoWSu7qAOa0M36HWHyewW+8YqCFDlBZQ=">
+<meta property="og:site_name" content="ライブドアニュース">
+<meta property="og:locale" content="ja_JP">
+
+<meta property="og:title" content="アニメニュース - ライブドアニュース">
+<meta property="og:description" content="アニメに関連する最新のニュースをお届けします">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://news.livedoor.com/article/category/57/">
+<meta property="og:image" content="https://news.livedoor.com/img/fb/news.png?v=20131122">
+
+
+<meta property="fb:app_id" content="177427582354682">
+<meta name="google-site-verification" content="o5tpnnMZcGiZ39mGlvymSKSR_fd_pGPaE67o49icZo8" />
+<link rel="icon" href="https://parts.news.livedoor.com/img/favicon.ico?v=20131002" type="image/x-icon">
+<link rel="Shortcut Icon" href="https://parts.news.livedoor.com/img/favicon.ico?v=20131002" type="img/x-icon">
+<link rel="alternate" type="application/rss+xml" href="/topics/rss/top.xml" title="RSS主要トピックス">
+<link rel="alternate" type="application/rss+xml" href="/topics/rss/dom.xml" title="RSS国内トピックス">
+<link rel="alternate" type="application/rss+xml" href="/topics/rss/int.xml" title="RSS海外トピックス">
+<link rel="alternate" type="application/rss+xml" href="/topics/rss/eco.xml" title="RSS IT 経済トピックス">
+<link rel="alternate" type="application/rss+xml" href="/topics/rss/ent.xml" title="RSS芸能トピックス">
+<link rel="alternate" type="application/rss+xml" href="/topics/rss/spo.xml" title="RSSスポーツトピックス">
+<link rel="alternate" type="application/rss+xml" href="/rss/summary/52.xml" title="RSS映画新着記事">
+<link rel="alternate" type="application/rss+xml" href="/topics/rss/gourmet.xml" title="RSSグルメトピックス">
+<link rel="alternate" type="application/rss+xml" href="/topics/rss/love.xml" title="RSS女子トピックス">
+<link rel="alternate" type="application/rss+xml" href="/topics/rss/trend.xml" title="RSSトレンドトピックス">
+<link rel="search" type="application/opensearchdescription+xml" title="ライブドアニュース" href="https://news.livedoor.com/open_search/default.xml">
+<link rel="stylesheet" href="/css/v2/common.css?v=2.77" type="text/css">
+
+
+
+<script type="text/javascript" src="/js/jquery1,8,1.js"></script>
+<script type="text/javascript" src="/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/js/_comment_up.0.3.js"></script>
+<script type="text/javascript" src="/js/ads.0.5.js"></script>
+<script type="text/javascript" src="/js/abtest/rewrite.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/js/html5shiv.js"></script>
+<![endif]-->
+
+<!-- UniversalAnalytics -->
+<script>
+function GAProxy(){
+    this.push = function(args){
+        if(args.length > 5){
+            throw "invalid argument length";
+        }
+        var eventName = args[0];
+        var category = args[1];
+        var action = args[2];
+        var label = args[3];
+        var value = args[4];
+        if(eventName !== '_trackEvent'){ // ignore
+            return;
+        }
+        if(typeof(action) === "undefined"){
+            alert("actionが設定されていません");
+            return;
+        }
+        var params = ["send", "event", category, action, label, value];
+        var filtered_params = params.filter(function(e){
+            return typeof(e) !== "undefined";
+        });
+        if(typeof(ga) !== "undefined"){
+            ga.apply(window, filtered_params);
+        }
+    };
+}
+var _gaq = new GAProxy();
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-27661606-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+
+
+<script>
+(function(g,d){var v='release/stable';
+g._trmq=[];g._trm=function(){g._trmq.push(arguments)};
+g.onerror=function(m,f,l,c){g._trm('send','exception',m,f,l,c)};
+var h=location.protocol==='https:'?'https://d.line-scdn.net':'http://d.line-cdn.net';
+var s=d.createElement('script');s.async=1;
+s.src=h+'/n/_4/torimochi.js/public/v1/'+v+'/min/torimochi.js';
+var t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);
+})(window, document);
+_trm('enable', {
+productKey: 'livedoor-news-real'
+});
+_trm('send', 'pageview');
+</script>
+
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1682225158731376');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1682225158731376&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TQ7LV8X');</script>
+
+
+
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<!-- OpwenWrap Script begins here -->
+<script type="text/javascript">
+  var PWT = {}; //Initialize Namespace
+  var notifyId;
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  PWT.jsLoaded = function() { //PubMatic pwt.js on load callback is used to load GPT
+    (function() {
+      var gads = document.createElement('script');
+      var useSSL = 'https:' == document.location.protocol;
+      gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+      var node = document.getElementsByTagName('script')[0];
+      node.parentNode.insertBefore(gads, node);
+    })();
+  };
+  (function() {
+    var purl = window.location.href;
+    var url = '//ads.pubmatic.com/AdServer/js/pwt/156670/2360';
+    var profileVersionId = '';
+    if(purl.indexOf('pwtv=')>0){
+        var regexp = /pwtv=(.*?)(&|$)/g;
+        var matches = regexp.exec(purl);
+        if(matches.length >= 2 && matches[1].length > 0){
+            profileVersionId = '/'+matches[1];
+        }
+    }
+    var wtads = document.createElement('script');
+    wtads.async = true;
+    wtads.type = 'text/javascript';
+    wtads.src = url+profileVersionId+'/pwt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(wtads, node);
+  })();
+</script>
+
+
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/21627555768/livedoor_NEWS/PC/main_footer_left', [300, 250], 'div-gpt-ad-1523416550419-0').addService(googletag.pubads());
+    googletag.defineSlot('/21627555768/livedoor_NEWS/PC/main_footer_right', [300, 250], 'div-gpt-ad-1523416576776-0').addService(googletag.pubads());
+    googletag.defineSlot('/21627555768/livedoor_NEWS/PC/sbu_1st', [[300, 250], [300, 600]], 'div-gpt-ad-1523416600988-0').addService(googletag.pubads());
+    googletag.defineSlot('/21627555768/livedoor_NEWS/PC/sbu_2nd', [300, 250], 'div-gpt-ad-1523416675106-0').addService(googletag.pubads());
+    googletag.defineSlot('/21627555768/livedoor_NEWS/PC/sbu_3rd', [[300, 250], [300, 600]], 'div-gpt-ad-1523416697491-0').addService(googletag.pubads());
+    googletag.defineSlot('/21627555768/livedoor_NEWS/PC/top_native', ['fluid'], 'div-gpt-ad-1560763734645-0').addService(googletag.pubads());
+    googletag.defineSlot('/21627555768/livedoor_NEWS/PC/quiz', [[300, 250], [336, 280], 'fluid'], 'div-gpt-ad-1591762712711-0').addService(googletag.pubads()).setCollapseEmptyDiv(true,true);
+    googletag.pubads().setTargeting('env', ["production"]);
+    
+    googletag.pubads().setTargeting('quiz_id', [""]);
+
+
+            notifyId = window.OWT.registerExternalBidders(['div-gpt-ad-1523416550419-0', 'div-gpt-ad-1523416576776-0', 'div-gpt-ad-1523416600988-0', 'div-gpt-ad-1523416675106-0', 'div-gpt-ad-1523416697491-0', 'div-gpt-ad-1560763734645-0', 'div-gpt-ad-1591762712711-0']);
+    //googletag.pubads().disableInitialLoad();
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+    
+  });
+</script>
+
+<script>
+    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+    apstag.init({
+        pubID: '3798',
+        adServer: 'googletag'
+    });
+    apstag.fetchBids({
+        slots: [{
+            slotID: 'div-gpt-ad-1523416550419-0',
+            slotName: '/21627555768/livedoor_NEWS/PC/main_footer_left',
+            sizes: [[300, 250]]
+        },
+        {
+            slotID: 'div-gpt-ad-1523416576776-0',
+            slotName: '/21627555768/livedoor_NEWS/PC/main_footer_right',
+            sizes: [[300, 250]]
+        },
+        {
+            slotID: 'div-gpt-ad-1523416600988-0',
+            slotName: '/21627555768/livedoor_NEWS/PC/sbu_1st',
+            sizes: [[300, 250], [300, 600]]
+        },
+        {
+            slotID: 'div-gpt-ad-1523416675106-0',
+            slotName: '/21627555768/livedoor_NEWS/PC/sbu_2nd',
+            sizes: [[300, 250]]
+        },
+        {
+            slotID: 'div-gpt-ad-1523416697491-0',
+            slotName: '/21627555768/livedoor_NEWS/PC/sbu_3rd',
+            sizes: [[300, 250], [300, 600]]
+        }],
+        timeout: 2e3
+    }, function(bids) {
+        // Your callback method, in this example it triggers the first DFP request for googletag's disableInitialLoad integration after bids have been set
+        googletag.cmd.push(function(){
+            apstag.setDisplayBids();
+            window.OWT.notifyExternalBiddingComplete(notifyId);
+            //googletag.pubads().refresh();
+        });
+    });
+</script>
+
+
+
+<script>
+$(function() {
+  pvs_count = 0;
+  session_count = 0;
+  date = new Date();
+
+  if (!$.cookie('m_session_pvs')) {
+    pvs_count = 1;
+    if (!$.cookie('m_session')) {
+       session_count = 1;
+    } else {
+       session_count = $.cookie('m_session');
+       session_count ++;
+    }
+    $.cookie( "m_session", session_count, { expires: 30, path: "/" });
+  } else {
+    pvs_count = $.cookie('m_session_pvs');
+    pvs_count ++;
+  }
+  date.setTime( date.getTime() + ( 30 * 60 * 1000 ));
+  $.cookie( "m_session_pvs", pvs_count, { expires: date, path: "/" });
+});
+</script>
+
+</head>
+
+<body id="page-article_category" class="col3">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQ7LV8X"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+
+
+<div id="fb-root"></div>
+<script>
+  // https://developers.facebook.com/docs/reference/javascript/FB.init/
+  window.fbAsyncInit = function() {
+    // init the FB JS SDK
+    FB.init({
+      appId      : 177427582354682, // App ID from the App Dashboard
+      version    : 'v3.1',
+      //channelUrl : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File for x-domain communication
+      status     : true, // check the login status upon init?
+      cookie     : true, // set sessions cookies to allow your server to access the session?
+      xfbml      : true  // parse XFBML tags on this page?
+    });
+
+    // Additional initialization code such as adding Event Listeners goes here
+
+  };
+
+  // Load the SDK's source Asynchronously
+  // Note that the debug version is being actively developed and might
+  // contain some type checks that are overly strict.
+  // Please report such bugs using the bugs tool.
+  (function(d, debug){
+     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/ja_JP/sdk" + (debug ? "/debug" : "") + ".js";
+     ref.parentNode.insertBefore(js, ref);
+   }(document, false));
+</script>
+
+
+
+
+
+
+
+
+<div id="container">
+
+<header id="globalHeader">
+  <div class="headerInner">
+    <div class="headerSearchWrap">
+      <form class="headerSearch" method="get" action="/search/article/">
+        <input type="hidden" value="euc-jp" name="ie">
+        <input type="text" name="word" size="30" value="" placeholder="ニュース検索" class="searchText">
+        <input type="submit" value="検索" class="searchBtn">
+      </form>
+    </div>
+      <div class="headerLogo"><a href="https://news.livedoor.com/" onclick="_gaq.push(['_trackEvent', 'ニュース', ' ヘッダー', 'ロゴ/ニュース']);">ライブドアニュース</a><a class="annivIcon" href="/doorfumi/" onclick="_gaq.push(['_trackEvent', 'ニュース', ' ヘッダー', 'ドアふみ']);">ドアふみ</a></div>
+    <ul class="headerInfo"><!--
+      
+      --><li class="infoLogin"><a href="http://member.livedoor.com/login/?.next=https%3A%2F%2Fnews.livedoor.com&.sv=news" onclick="_gaq.push(['_trackEvent', 'ニュース', ' ヘッダー', 'ログイン/ログアウト']);">ログイン</a></li><!--
+      
+      --><li class="infoTop"><a href="http://www.livedoor.com/r/news_text" onclick="_gaq.push(['_trackEvent', 'ニュース', ' ヘッダー', 'グローバルヘッダ/LDトップ']);">livedoor</a></li><!--
+    --></ul>
+  </div><!-- /.headerInner -->
+  
+  
+</header><!-- /#header -->
+
+
+
+
+<!-- google_ad_section_start -->
+
+
+<div id="content">
+  <div class="contentInner">
+  
+
+
+
+    <div id="nav">
+      <div class="navInner">
+        <nav id="globalNav">
+          <ul>
+            <li>
+              <div class="parent"><a href="https://news.livedoor.com/" onclick="_gaq.push(['_trackEvent', 'ニュース', '左カラム', '一段目/トップ']);">トップ</a></div>
+            </li>
+            <li>
+              <div class="parent"><a href="https://news.livedoor.com/topics/category/main/" onclick="_gaq.push(['_trackEvent', 'ニュース', '左カラム', '一段目/主要']);">主要</a></div>
+            </li>
+            <li>
+              <div class="parent"><a href="https://news.livedoor.com/topics/category/dom/" onclick="_gaq.push(['_trackEvent', 'ニュース', '左カラム', '一段目/国内']);">国内</a></div>
+            </li>
+            <li>
+              <div class="parent"><a href="https://news.livedoor.com/topics/category/world/" onclick="_gaq.push(['_trackEvent', 'ニュース', '左カラム', '一段目/海外']);">海外</a></div>
+            </li>
+            <li>
+              <div class="parent"><a href="https://news.livedoor.com/topics/category/eco/" onclick="_gaq.push(['_trackEvent', 'ニュース', '左カラム', '一段目/IT 経済']);">IT 経済</a></div>
+            </li>
+            <li>
+              <div class="parent"><a href="https://news.livedoor.com/topics/category/ent/" onclick="_gaq.push(['_trackEvent', 'ニュース', '左カラム', '一段目/芸能']);">芸能</a></div>
+            </li>
+            <li>
+              <div class="parent"><a href="https://news.livedoor.com/topics/category/sports/" onclick="_gaq.push(['_trackEvent', 'ニュース', '左カラム', '一段目/スポーツ']);">スポーツ</a></div>
+            </li>
+            <li>
+              <div class="parent"><a href="https://news.livedoor.com/article/category/52/" onclick="_gaq.push(['_trackEvent', 'ニュース', '左カラム', '一段目/映画']);">映画</a></div>
+            </li>
+            <li>
+              <div class="parent"><a href="https://news.livedoor.com/topics/category/gourmet/" onclick="_gaq.push(['_trackEvent', 'ニュース', '左カラム', '一段目/グルメ']);">グルメ</a></div>
+            </li>
+            <li>
+              <div class="parent"><a href="https://news.livedoor.com/topics/category/love/" onclick="_gaq.push(['_trackEvent', 'ニュース', '左カラム', '一段目/女子']);">女子</a></div>
+            </li>
+            <li>
+              <div class="parent"><a href="https://news.livedoor.com/topics/category/trend/" onclick="_gaq.push(['_trackEvent', 'ニュース', '左カラム', '一段目/トレンド']);">トレンド</a></div>
+            </li>
+            <li class="navSeparate">
+              <div class="parent"><a href="https://news.livedoor.com/straight_news/" onclick="_gaq.push(['_trackEvent', 'ニュース', '左カラム', '一段目/今日のできごと']);">今日のニュース</a></div>
+            </li>
+            <li>
+              <div class="parent"><a href="https://news.livedoor.com/ranking/" onclick="_gaq.push(['_trackEvent', 'ニュース', '左カラム', '一段目/ランキング']);">ランキング</a></div>
+            </li>
+            <li>
+                  <div class="parent"><a href="https://news.livedoor.com/social_reaction/" onclick="_gaq.push(['_trackEvent', 'ニュース', '左カラム', '一段目/話題のニュース']);">話題のニュース</a></div>
+            </li>
+            <li>
+                  <div class="parent"><a href="https://news.livedoor.com/category/vender/special/" onclick="_gaq.push(['_trackEvent', 'ニュース', '左カラム', '一段目/インタビュー']);">インタビュー</a></div>
+            </li>
+          </ul>
+        </nav>
+      </div><!-- /.navInner -->
+    </div><!-- /#nav -->
+  <div id="main">
+    <div class="mainInner">
+      <section class="mainSec">
+        <header class="mainHeader">
+          <h1 class="mainTtl">アニメ</h1>
+        </header>
+        
+        <div class="mainBody">
+          <ul class="articleList">
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18854784/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/779c8effae2cc1159b090feee8b5e3152a2e45c0/small_light(p=S80,dx=0,dy=0)/https://image.news.livedoor.com/newsimage/stf/e/1/e1a37_760_2171315_20200906_122258_size640wh_8427-m.jpg" alt="『週刊ビッグコミックスピリッツ』41号の表紙" onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">漫画『あさひなぐ』完結、連載9年半に幕　表紙は実写映画主演・西野七瀬</h3>
+          <p class="articleListSummary">薙刀（なぎなた）を題材にした漫画『あさひなぐ』（作者・こざき亜…</p>
+          <p class="articleListVender">オリコン</p>
+          <time datetime="2020-09-07 00:00:00" class="articleListDate">
+2020年9月7日 0時0分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18854633/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/922ac37301ea06877629ccf93c00496a89e03fad/small_light(p=S80)/https://image.news.livedoor.com/newsimage/stf/4/3/43bff_1487_23c3c5b4_fe481ea9-m.jpg" alt="
+          モーティシア役の杏、ウェンズデー役の二階堂ふみのコミカルな会話シーンも！
+        " onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">ゾッとするほど魅力的　「アダムス・ファミリー」杏、生瀬勝久、二階堂ふみらの声おさめた予告</h3>
+          <p class="articleListSummary">モーティシア役の杏、ウェンズデー役の二階堂ふみのコミカルな会話シ…</p>
+          <p class="articleListVender">アニメハック</p>
+          <time datetime="2020-09-06 22:00:00" class="articleListDate">
+2020年9月6日 22時0分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18854456/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/9e39bfd81abec714d973a1357e12d560400baaaa/small_light(p=S80,dx=0,dy=0)/https://image.news.livedoor.com/newsimage/stf/f/6/f6207_1487_ee267205_ea8e8a63-m.jpg" alt="
+          初回の10月4日は劇場版「銀河鉄道999」放送
+        " onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">BS12のアニメ放送枠「日曜アニメ劇場」10月に新設　劇場版「銀河鉄道999」「文スト」など放送</h3>
+          <p class="articleListSummary">初回の10月4日は劇場版「銀河鉄道999」放送(C)松本零士・東映アニメー…</p>
+          <p class="articleListVender">アニメハック</p>
+          <time datetime="2020-09-06 21:00:00" class="articleListDate">
+2020年9月6日 21時0分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18854376/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/ce2bfd4b9932d4c24c735b6542df6361bef8f6bd/small_light(p=S80,dx=0,dy=0)/https://image.news.livedoor.com/newsimage/stf/b/a/ba2b4_760_2171333_20200906_205026_size640wh_6699-m.jpg" alt="『アニメソング総選挙』1位はアニメ『新世紀エヴァンゲリオン』の「残酷な天使のテーゼ」" onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">『アニメソング総選挙』1位はエヴァの「残酷な天使のテーゼ」　鬼滅の刃「紅蓮華」は2位</h3>
+          <p class="articleListSummary">テレビ朝日で6日、「日本人がもっとも好きなアニメソング」を発表す…</p>
+          <p class="articleListVender">オリコン</p>
+          <time datetime="2020-09-06 20:50:15" class="articleListDate">
+2020年9月6日 20時50分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18854292/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/5fb3efdc9bdc03fcf04f449601108c0f68f53316/small_light(p=S80)/https://image.news.livedoor.com/newsimage/stf/e/5/e569e_1487_0d02c457_d86a4460-m.jpg" alt="
+          テリーヌ風オープンミッフィーサンド
+        " onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">東京スカイツリー・ソラマチで「ミッフィーカフェ」開催　オランダ料理を取り入れたメニューも</h3>
+          <p class="articleListSummary">テリーヌ風オープンミッフィーサンドIllustrations Dick Bruna (C) co…</p>
+          <p class="articleListVender">アニメハック</p>
+          <time datetime="2020-09-06 20:00:00" class="articleListDate">
+2020年9月6日 20時0分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18854122/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/989455faf3d82e26826d218db775e432d4cb3aa9/small_light(p=S80,dx=0,dy=0)/https://image.news.livedoor.com/newsimage/stf/a/1/a1869_1487_07f2de83_de50306c-m.jpg" alt="「おジャ魔女どれみ」作中スイーツ“愛しのトゥルビヨン”の全貌が「グレーテルのかまど」内で明らかに" onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">「おジャ魔女どれみ」作中スイーツ“愛しのトゥルビヨン”の全貌が「グレーテルのかまど」内で明らかに</h3>
+          <p class="articleListSummary">(C)東映・東映アニメーション「おジャ魔女どれみ」シリーズ20周年記念…</p>
+          <p class="articleListVender">アニメハック</p>
+          <time datetime="2020-09-06 19:00:00" class="articleListDate">
+2020年9月6日 19時0分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18854089/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/596496a4f0db7ac1954782c1219d50f1034b03a3/small_light(p=S80,dx=0,dy=0)/https://image.news.livedoor.com/newsimage/stf/a/8/a824f_760_2171329_20200818_192734_size640wh_2399-m.jpg" alt="アニメ『ドラゴンクエスト ダイの大冒険』のキービジュアル（C）三条陸、稲田浩司／集英社・ダイの大冒険製作委員会・テレビ東京（C）SQUARE ENIX CO., LTD." onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">アニメ『ダイの大冒険』10・3放送開始、テレ東の朝に　OP主題歌はマカロニえんぴつ</h3>
+          <p class="articleListSummary">テレビアニメ『ドラゴンクエスト ダイの大冒険』が、テレビ東京系に…</p>
+          <p class="articleListVender">オリコン</p>
+          <time datetime="2020-09-06 19:00:00" class="articleListDate">
+2020年9月6日 19時0分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18854155/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/39fc1aea4942eb987dc78bbff1f809da776315b1/small_light(p=S80,dx=0,dy=0)/https://image.news.livedoor.com/newsimage/stf/d/7/d7350_183_04488c67_0cbe13f4-m.jpg" alt="TVアニメ「おそ松さん」第3期、10月12日(月)放送開始決定！ 第3期の新展開を握る鍵が隠された第3期メインビジュアル初公開！" onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">TVアニメ「おそ松さん」第3期、10月12日(月)放送開始決定！ 第3期の新展開を握る鍵が隠された第3期メインビジュアル初公開！</h3>
+          <p class="articleListSummary">TVアニメ「おそ松さん」第3期のメインビジュアルが公開され、あわせて…</p>
+          <p class="articleListVender">アキバ総研</p>
+          <time datetime="2020-09-06 18:26:59" class="articleListDate">
+2020年9月6日 18時26分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18839061/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/f7e6a34d767e5b8a386aff51516500128628a1be/small_light(p=S80,dx=0,dy=0)/https://image.news.livedoor.com/newsimage/stf/c/b/cb2a9_1533_eff2860aeae0385621308a874a0e988c-m.jpg" alt="20-P10 H1Middle" onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">9月10日（木）発売PASH!10月号の表紙&amp;中身を公開！</h3>
+          <p class="articleListSummary">9月10日（木）発売  PASH!10月号の  表紙と中身を公開します！まず、…</p>
+          <p class="articleListVender">PASH! PLUS</p>
+          <time datetime="2020-09-06 18:15:57" class="articleListDate">
+2020年9月6日 18時15分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18852389/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/8122d0073fb359e2c504724a2588a9797aa53468/small_light(p=S80,dx=0,dy=0)/https://image.news.livedoor.com/newsimage/stf/d/1/d1ed32f66bebaf05e3f841e6a3db3a36-cm.jpg?v=20200906221112" alt="(C)赤塚不二夫／おそ松さん製作委員会" onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">アニメ「おそ松さん」第3期は10月12日スタート ビジュアル初公開</h3>
+          <p class="articleListSummary">このたび、TVアニメ『おそ松さん』第3期のメインビジュアルが公開され…</p>
+          <p class="articleListVender">livedoor</p>
+          <time datetime="2020-09-06 18:06:55" class="articleListDate">
+2020年9月6日 18時6分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18853884/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/7dd2d964a1402caf687e104d2cc026fb0385a4a4/small_light(p=S80,dx=0,dy=0)/https://image.news.livedoor.com/newsimage/stf/9/9/99220_760_2171198_20200904_174557_size640wh_2637-m.jpg" alt="『おそ松さん』第3期メインビジュアル （C）赤塚不二夫／おそ松さん製作委員会" onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">『おそ松さん』第3期メインビジュアル解禁　“新展開”が隠れてる？　10・12放送スタート</h3>
+          <p class="articleListSummary">TVアニメ『おそ松さん』第3期のメインビジュアルが6日、公開された…</p>
+          <p class="articleListVender">オリコン</p>
+          <time datetime="2020-09-06 18:06:42" class="articleListDate">
+2020年9月6日 18時6分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18853891/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/b920f39d6b1ffab645e07f577c3aa85f53627f09/small_light(p=S80,dx=0,dy=0)/https://image.news.livedoor.com/newsimage/stf/e/5/e51c6_1533_e0881b47e856730844c1ce96b5feef04-m.jpg" alt="20200904_osomatsu_002" onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">『おそ松さん』第3期OPは「A応P」が担当！新ビジュアルも“新しいおそ松さん”を予感させる1枚に…</h3>
+          <p class="articleListSummary">TVアニメ『おそ松さん』第3期のメインビジュアルが公開。さらに、10…</p>
+          <p class="articleListVender">PASH! PLUS</p>
+          <time datetime="2020-09-06 18:06:24" class="articleListDate">
+2020年9月6日 18時6分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18853936/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/dcc96b706db675e90bfccbdb496ca70fbb414b2b/small_light(p=S80,dx=0,dy=0)/https://image.news.livedoor.com/newsimage/stf/1/d/1d37e_1699_42f965b1_4d4b57e4-m.jpg" alt="『おそ松さん』第3期メインビジュアル　(C)赤塚不二夫／おそ松さん製作委員会" onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">『おそ松さん』第3期メインビジュアルに、新展開の秘密が!? 　OPアーティストも発表!!</h3>
+          <p class="articleListSummary">新情報発表のたびに、お祭り気分がジワジワと盛り上がってくる『おそ…</p>
+          <p class="articleListVender">アニメージュプラス</p>
+          <time datetime="2020-09-06 18:06:00" class="articleListDate">
+2020年9月6日 18時6分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18853959/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/95da176f7ece401fb6a3ef936777b025cf513b67/small_light(p=S80)/https://image.news.livedoor.com/newsimage/stf/3/9/39595_183_9155f61b_710e9b08-m.jpg" alt="TVアニメ「はたらく細胞BLACK」第1弾PV解禁！ 追加キャスト発表＆コメント公開!!" onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">TVアニメ「はたらく細胞BLACK」第1弾PV解禁！ 追加キャスト発表＆コメント公開!!</h3>
+          <p class="articleListSummary">2021年1月にTVアニメ化されることが決定している「はたらく細胞BLACK…</p>
+          <p class="articleListVender">アキバ総研</p>
+          <time datetime="2020-09-06 17:56:16" class="articleListDate">
+2020年9月6日 17時56分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18853709/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/6643fa50ffda383409bfd96063b2ab8c19a4f7a4/small_light(p=S80)/https://image.news.livedoor.com/newsimage/stf/f/b/fb1ea_183_8e3463c9_8ffbf15e-m.jpg" alt="2020年9月23日発売の「魔進戦隊キラメイジャー」ミニアルバム第2弾、収録内容公開！" onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">2020年9月23日発売の「魔進戦隊キラメイジャー」ミニアルバム第2弾、収録内容公開！</h3>
+          <p class="articleListSummary">2020年9月23日に発売予定の「魔進戦隊キラメイジャー」ミニアルバム第…</p>
+          <p class="articleListVender">アキバ総研</p>
+          <time datetime="2020-09-06 17:21:58" class="articleListDate">
+2020年9月6日 17時21分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18853708/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/eb1e80a4d31cfc26d99ea9e6e8f179284c183b16/small_light(p=S80)/https://image.news.livedoor.com/newsimage/stf/a/a/aa66b_183_e92f1bc5_7c881816-m.jpg" alt="TVアニメ「魔法科高校の劣等生 来訪者編」第2弾PV公開！ OPはASCAの「Howling」、EDが佐藤ミキの「名もない花」に決定" onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">TVアニメ「魔法科高校の劣等生 来訪者編」第2弾PV公開！ OPはASCAの「Howling」、EDが佐藤ミキの「名もない花」に決定</h3>
+          <p class="articleListSummary">2020年10月より放送開始となる「魔法科高校の劣等生 来訪者編」の第2…</p>
+          <p class="articleListVender">アキバ総研</p>
+          <time datetime="2020-09-06 17:01:44" class="articleListDate">
+2020年9月6日 17時1分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18853453/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/e9dc2f26a8f931d7a91ac84a09f2193b85a75b68/small_light(p=S80)/https://image.news.livedoor.com/newsimage/stf/d/5/d5c55_1699_55eb5038_32ad9a30-m.jpg" alt="（C）2020, KURAND" onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">新たなビールと出会える！ おとなのガチャ『ビアガチャ』登場</h3>
+          <p class="articleListSummary">リカー・イノベーションが運営するお酒のオンラインストア「 KURAND(…</p>
+          <p class="articleListVender">アニメージュプラス</p>
+          <time datetime="2020-09-06 16:00:00" class="articleListDate">
+2020年9月6日 16時0分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18853227/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/ab85f3e40c15fd38eca6dc47d08d25a0032f378e/small_light(p=S80,dx=0,dy=0)/https://image.news.livedoor.com/newsimage/stf/5/b/5b968_1699_7dbe17a9_66067c59-m.jpg" alt="（C）VISUAL ARTS / Key / 「神様になった日」Project" onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">『神様になった日』OP・EDテーマ収録の豪華CDが10月に発売！</h3>
+          <p class="articleListSummary">2020年10月放送予定のTVアニメ『神様になった日』のOPテーマ・EDテー…</p>
+          <p class="articleListVender">アニメージュプラス</p>
+          <time datetime="2020-09-06 15:00:00" class="articleListDate">
+2020年9月6日 15時0分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18853021/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/6e1da4cd112f22b43e3cffb6e1827dfd199d54ad/small_light(p=S80)/https://image.news.livedoor.com/newsimage/stf/f/2/f20dc_1699_e22930cb_0a6a8ff2-cm.jpg?v=20200906143223" alt="(C)宮川大河／COMICSMART INC." onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">漫画「多数決」のアニメ化のクラウドファンディングが達成</h3>
+          <p class="articleListSummary">セプテーニ・ホールディングス連結子会社である、マンガコンテンツ事…</p>
+          <p class="articleListVender">アニメージュプラス</p>
+          <time datetime="2020-09-06 14:00:00" class="articleListDate">
+2020年9月6日 14時0分</time>
+        </div>
+  </a>
+</li>
+            
+<li class="hasImg">
+  <a href="https://news.livedoor.com/article/detail/18852813/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'メインカラム', '記事カテゴリ一覧/アニメ/詳細']);">
+        <p class="articleListImg"><img src="https://sl.news.livedoor.com/c1d3f6c0a5407d051e55682befab06008a3f3b4d/small_light(p=S80)/https://image.news.livedoor.com/newsimage/stf/7/3/7364c_1699_7d5a9258_3369375a-m.jpg" alt="人気記事週刊ランキング" onMouseDown="return false;" onSelectStart="return false;" oncontextmenu="return false;" galleryimg="no"></p>
+        <div class="articleListBody">
+          <h3 class="articleListTtl">一番読まれた人気記事は？　週刊話題のニュースまとめ（8月28日〜9月3日）</h3>
+          <p class="articleListSummary">今回もアニメージュプラスの人気記事ランキングをお届けしよう。集計…</p>
+          <p class="articleListVender">アニメージュプラス</p>
+          <time datetime="2020-09-06 13:00:00" class="articleListDate">
+2020年9月6日 13時0分</time>
+        </div>
+  </a>
+</li>
+                      </ul>
+          
+<ul class="pager">
+    
+  
+  
+      <li class="current"><span>1</span></li>
+      <li><a href="./?p=2">2</a></li>
+      <li><a href="./?p=3">3</a></li>
+      <li><a href="./?p=4">4</a></li>
+      <li><a href="./?p=5">5</a></li>
+      <li><a href="./?p=6">6</a></li>
+      <li><a href="./?p=7">7</a></li>
+    <li class="next"><a href="./?p=2" rel="next">次へ</a></li>
+  </ul>
+        </div>
+      </section>
+      
+<aside class="mainSec">
+  <div class="adsW">
+    <div class="adsW1">
+      
+      <!-- /21627555768/livedoor_NEWS/PC/main_footer_left -->
+      <div id='div-gpt-ad-1523416550419-0'>
+        <script>
+          googletag.cmd.push(function() { googletag.display('div-gpt-ad-1523416550419-0'); });
+        </script>
+      </div>
+      
+    </div>
+    <div class="adsW2">
+      
+      <!-- /21627555768/livedoor_NEWS/PC/main_footer_right -->
+      <div id='div-gpt-ad-1523416576776-0'>
+        <script>
+          googletag.cmd.push(function() { googletag.display('div-gpt-ad-1523416576776-0'); });
+        </script>
+      </div>
+      
+    </div>
+  </div>
+</aside>
+
+    </div>
+  </div>
+  
+    <div id="sub">
+      <div class="subInner">
+
+
+        <aside class="subSec">
+          
+            
+            <!-- /21627555768/livedoor_NEWS/PC/sbu_1st -->
+            <div id='div-gpt-ad-1523416600988-0'>
+            <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1523416600988-0'); });
+            </script>
+            </div>
+            
+          
+        </aside>
+
+
+        
+
+
+
+
+
+
+
+        <aside class="subSec">
+          <h2 class="subTtl">主要ニュース</h2>
+          <div class="subBody">
+
+
+<ul class="topicsList">  <li>
+    <a id="topics_2727595" class="rewrite_ab" href="https://news.livedoor.com/topics/detail/18854659/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'サイドカラム','主要/トピックス/詳細/1行目']);">大型の台風10号 4日間の経路</a><i class="icon icoNew"></i>
+  </li>  <li>
+    <a id="topics_2727574" class="rewrite_ab" href="https://news.livedoor.com/topics/detail/18854561/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'サイドカラム','主要/トピックス/詳細/2行目']);">台風10号「強さが全然違う」</a><i class="icon icoNew"></i>
+  </li>  <li>
+    <a id="topics_2727555" class="rewrite_ab" href="https://news.livedoor.com/topics/detail/18854543/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'サイドカラム','主要/トピックス/詳細/3行目']);">前田建設 学校壁に廃材不法投棄?</a>
+  </li>  <li>
+    <a id="topics_2727524" class="rewrite_ab" href="https://news.livedoor.com/topics/detail/18854306/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'サイドカラム','主要/トピックス/詳細/4行目']);">イヤホンしすぎ 耳でカビ繁殖も</a>
+  </li>  <li>
+    <a id="topics_2727597" class="rewrite_ab" href="https://news.livedoor.com/topics/detail/18758047/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'サイドカラム','主要/トピックス/詳細/5行目']);">苦境の中小店舗 復活を支援</a><i class="pr"></i>
+  </li>  <li>
+    <a id="topics_2727444" class="rewrite_ab" href="https://news.livedoor.com/topics/detail/18853534/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'サイドカラム','主要/トピックス/詳細/6行目']);">前澤氏が44億円損失 無念を吐露</a>
+  </li>  <li>
+    <a id="topics_2727507" class="rewrite_ab" href="https://news.livedoor.com/topics/detail/18853977/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'サイドカラム','主要/トピックス/詳細/7行目']);">半沢生放送にパネラー「いる?」</a>
+  </li>  <li>
+    <a id="topics_2727546" class="rewrite_ab" href="https://news.livedoor.com/topics/detail/18854240/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'サイドカラム','主要/トピックス/詳細/8行目']);">新庄氏「今は激安アパートに」</a>
+  </li>  <li>
+    <a id="topics_2727568" class="rewrite_ab" href="https://news.livedoor.com/topics/detail/18854473/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'サイドカラム','主要/トピックス/詳細/9行目']);">キムタクの日産CMに違和感も?</a>
+  </li>  <li>
+    <a id="topics_2727547" class="rewrite_ab" href="https://news.livedoor.com/topics/detail/18854494/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'サイドカラム','主要/トピックス/詳細/10行目']);">剛力 新事務所の社長「私です」</a>
+  </li>  <li>
+    <a id="topics_2727585" class="rewrite_ab" href="https://news.livedoor.com/topics/detail/18854389/" onclick="_gaq.push(['_trackEvent', 'ニュース', 'サイドカラム','主要/トピックス/詳細/11行目']);">がん公表の茂出木氏が病状説明</a><i class="icon icoNew"></i>
+  </li>
+</ul>
+<script type="text/javascript">
+var rand_topics_title_hash = {
+"topics_2727585":randomAdv({})
+};
+rewrite_topics_titles(rand_topics_title_hash);
+$(".rewrite_ab").css("visibility","visible");
+</script>
+
+
+          </div>
+        </aside>
+
+
+
+	
+
+
+        <aside class="subSec">
+          
+          <!-- /21627555768/livedoor_NEWS/PC/sbu_2nd -->
+          <div id='div-gpt-ad-1523416675106-0'>
+            <script>
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1523416675106-0'); });
+            </script>
+          </div>
+          
+        </aside>
+
+
+<aside class="subSec">
+  
+  <!-- /21627555768/livedoor_NEWS/PC/sbu_3rd -->
+  <div id='div-gpt-ad-1523416697491-0'>
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1523416697491-0'); });
+    </script>
+  </div>
+  
+</aside>
+
+      </div><!-- /subInner -->
+    </div><!-- /#sub -->
+
+
+
+   </div><!-- /.contentInner -->
+</div><!-- /#content -->
+
+
+
+<!-- google_ad_section_end -->
+
+<footer id="globalFooter">
+  <div class="footerInner">
+
+    <div class="footerLower">
+      <ul class="footerLink">
+        <li><a href="http://www.livedoor.com/">livedoorトップ</a></li>
+        <li><a href="https://linecorp.com/career/position/list">採用情報</a></li>
+        <li><a href="http://ad-center.line.me/">広告掲載</a></li>
+        <li><a href="http://docs.livedoor.com/rules/">利用規約</a></li>
+        <li><a href="http://docs.livedoor.com/privacy/">プライバシーポリシー</a></li>
+      </ul>
+      <p class="footerCopyright"><small>&copy; <b>LINE Corporation</b></small></p>
+    </div><!-- /.footerLower -->
+  </div><!-- /.footerInner -->
+
+
+
+</footer><!-- /#globalFooter -->
+
+
+</div><!-- /#container -->
+
+<script>if(window.unthem_async_loader && window.ads_code) unthem_async_loader(ads_code, "adview_custom");</script>
+<script>
+(function($){
+  $(function() {
+    var agent = navigator.userAgent;
+    if(agent.search(/iPhone/) != -1 || agent.search(/iPad/) != -1 || agent.search(/iPod/) != -1 || agent.search(/Android/) != -1){
+      var is_tablet = 1;
+    }
+    var $w = $(window),
+        hh = $('#globalHeader').innerHeight(),
+        fh = $('#globalFooter').innerHeight(),
+        is_hdr = $('#subHeader').length,
+        is_nav = $('#globalNav').length,
+        is_jack = $('#jackHead').length,
+        nc = is_jack?Math.abs(parseInt($('#globalFooter').css('margin-top'),10))-Math.abs(parseInt($('.contentInner').css('top'),10)):0;
+
+    if(is_nav > 0){
+        var $n = $('#globalNav'),
+            nm = 0,  //globalNav margin
+            nh = $('#globalNav').innerHeight() + nm * 2,
+            nt = $('#globalNav').offset().top - nm;
+    }
+    if(is_hdr > 0) {
+        var ht = $('#subHeader').offset().top,
+            col2 = $('body').hasClass('col2');
+    }
+
+    var navfix = function(){
+      var ws = $w.scrollTop(),
+          wl = $w.scrollLeft(),
+          wh = $w.innerHeight(),
+          dh = $(document).innerHeight();
+
+      if(is_hdr > 0) {
+        //if(ws > ((is_jack && col2) ? 183 : 0)) {
+        if(ws > ((is_jack && col2) ? 241 : 0)) {
+          $("#subHeader").fadeIn(300);
+          $('#subHeader').addClass('fixed');
+        } else {
+          $("#subHeader").fadeOut(300,function(){$('#subHeader').removeClass('fixed');});
+        }
+      }
+
+
+      if(is_nav > 0) {
+        var  nl = $('#nav').offset().left+30;
+
+        if(nh-wh < 0) {
+          if(dh-ws-fh+nc < nh){
+            $n.css({'position':'absolute', 'top':'auto', 'bottom':nm + 'px', 'left':'auto'});
+          }
+          else if(ws > nt){
+            $n.css({'position':'fixed', 'top':nm + 'px', 'bottom':'auto', 'left':(wl-nl) < 0 ? (nl-wl) + 'px' : '-' + (wl-nl) + 'px'});
+          }
+          else{
+            $n.css({'position':'static', 'top':'auto', 'bottom':'auto', 'left':'auto'});
+          }
+        }else{
+          if(dh-ws-wh-fh+nc < 0){
+            $n.css({'position':'absolute', 'top':'auto', 'bottom':nm + 'px', 'left':'auto'});
+          }
+          else if(ws > nt+nh-wh){
+            $n.css({'position':'fixed', 'top':'auto', 'bottom':nm + 'px', 'left':(wl-nl) < 0 ? (nl-wl) + 'px' : '-' + (wl-nl) + 'px'});
+          }
+          else{
+            $n.css({'position':'static', 'top':'auto', 'bottom':'auto', 'left':'auto'});
+          }
+        }
+      }
+    }
+
+    if(!is_tablet) {
+      $w.on('scroll',navfix);
+      $w.on('resize',navfix);
+    }
+    navfix();
+
+  });
+})(jQuery);
+
+</script>
+
+
+
+<!-- adblock check start -->
+<script type="text/javascript">
+     (function() {
+         var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.charset = "utf-8"; pa.async = true;
+         pa.src = "https://i.popincdn.com/js/popin-cb-min.js";
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+     })();
+</script>
+<!-- adblock check end -->
+
+
+
+
+<script>
+(function($) {
+  var cookieName = 'livedoor-news-gdpr-agreed';
+  $(document).ready(function() {
+    if (navigator.userAgent.match(/https?:\/\//)) {
+      // UA に http:// or https:// があればスルー
+      return;
+    }
+
+    var agreed = document.cookie.indexOf(cookieName) >= 0;
+    if (agreed) {
+      // 同意済み Cookie があればスルー
+      return;
+    }
+
+    var banner = $('<div>');
+    banner.attr('id', 'gdpr-banner');
+    var label = $('<p>');
+    label.html('\
+            当サイトではクッキーを使用しています。当サイトのブラウジングを続けることにより、当社のポリシーを受け入れたものと見なされます。<a href="http://www.livedoor.com/rules/" style="text-decoration: underline;">詳しく見る</a><br>\
+    ');
+    banner.append(label);
+
+    var closeButton = $('<div>');
+    closeButton.html('<img src="/img/v2/common/close.png" style="width: 100%;height: 100%;display: block;"/>');
+    closeButton.on('click', function() {
+      $('#gdpr-banner').hide();
+      document.cookie = cookieName + '="1";expires=Tue, 31-Dec-2037 00:00:00 GMT;path=/;';
+    });
+    banner.append(closeButton);
+
+    banner.css({
+      'position': 'relative',
+      'line-height': '1',
+      'background': 'rgb(245, 245, 245)',
+      'color': '#000',
+      'padding': '5px',
+      'text-align': 'center',
+      'box-shadow': '0 -2px 2px rgba(102, 102, 102, 0.86)',
+      //'z-index': '2147483647',
+    });
+    label.css({
+      'display': 'inline-block',
+      'text-align': 'left',
+      'font-size': '13px',
+      'color': '#000',
+      'vertical-align': 'middle',
+      'line-height': '1.5',
+      'margin': '0',
+    });
+    closeButton.css({
+      'display': 'block',
+      'position': 'absolute',
+      'top': '0',
+      'right': '10px',
+      'bottom': '0',
+      'margin': 'auto',
+      'width': '14px',
+      'height': '14px',
+      'padding': 0,
+      //'background-color': '#11ffee00',
+      'vertical-align': 'middle',
+    });
+
+    var script = document.createElement('script');
+    script.type = "text/javascript";
+
+    script.src = "https://countrycheck.livedoor.com/check";
+
+    script.onerror = function() {
+      //$('body').append(banner);
+      //$('header').prepend(banner);
+      $('#container').prepend(banner);
+    };
+    document.body.appendChild(script);
+  });
+})(jQuery);
+</script>
+</body>
+</html>
+
+<script type="text/javascript">
+$(function(){  // 
+	var url = window.location.pathname;
+	$('.peachy-menu li a[href="'+url+'"]').addClass('peachy-current');
+});
+</script>
+
+<script type="text/javascript">
+var wd = $(window);                      // 
+var mainArea = $("#main");   　　　　　　// 
+var sideWrap = $("#navColum");           // 
+var mainH;
+var sideH;
+
+$(function (){
+      // 
+      mainH = mainArea.height();
+      sideH = sideWrap.height();
+       
+      if(sideH < mainH) { // 
+             
+            // 
+            sideWrap.css({"height": mainH,"position": "relative"});
+      }
+});
+</script>
